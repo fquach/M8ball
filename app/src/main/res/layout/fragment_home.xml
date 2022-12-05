@@ -30,7 +30,7 @@
         android:id="@+id/btnAnswer"
         android:layout_width="250dp"
         android:layout_height="250dp"
-        android:src="@drawable/ic_menu_camera"
+        android:src="@drawable/eb"
         android:scaleType="centerCrop" />
 
     <TextView
