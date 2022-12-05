@@ -5,6 +5,8 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
+    android:scaleX="1"
+    android:scaleY="1"
     tools:context=".ui.home.HomeFragment">
 
     <TextView
@@ -12,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="@string/filler"
+        android:text="..."
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <EditText
@@ -28,7 +30,8 @@
         android:id="@+id/btnAnswer"
         android:layout_width="250dp"
         android:layout_height="250dp"
-        android:src="@mipmap/ic_launcher_round" />
+        android:src="@drawable/ic_menu_camera"
+        android:scaleType="centerCrop" />
 
     <TextView
         android:id="@+id/tvAnswer"
