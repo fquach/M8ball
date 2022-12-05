@@ -1,4 +1,3 @@
-package com.example.m8ball.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,6 +7,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.m8ball.databinding.FragmentHomeBinding
+import com.example.m8ball.ui.home.HomeViewModel
 
 class HomeFragment : Fragment() {
 
